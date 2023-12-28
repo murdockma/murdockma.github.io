@@ -319,8 +319,8 @@ body {
   # About
   --------------------------------------------------------------*/
 #my-link a {
-  text-decoration: underline;
-  font-weight: bold;
+  /* text-decoration: underline; */
+  /* font-weight: bold; */
 }
 
   .about .content h3 {
