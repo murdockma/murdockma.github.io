@@ -1,22 +1,22 @@
 body {
-    font-family: "Montserrat", sans-serif;
-    color: #D9CCC1;
-    background: #1f2323;
-  }
-  
-  a {
-    color: #d6d6d6;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #c0a6d2;
-    text-decoration: none;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat Subrayada", sans-serif;
-  }
+  font-family: "Montserrat", sans-serif;
+  color: #D9CCC1;
+  background: #121212;
+}
+
+a {
+  color: #d6d6d6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0a6d2;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Sans", sans-serif;
+}
   
   /*--------------------------------------------------------------
   # Back to top button
@@ -119,7 +119,7 @@ body {
   }
   
   #main {
-    margin-left: 220px;
+    /* margin-left: 220px; */
     color: #d6d6d6;
   }
   
@@ -213,13 +213,13 @@ body {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/hero-bg.jpg") top center;
-    background-size: cover;
+    /* background: url("../img/hero-bg.jpg") top center;
+    background-size: cover; */
   }
   
   #hero:before {
     content: "";
-    background: rgba(5, 13, 24, 0.3);
+    /* background: rgba(5, 13, 24, 0.3); */
     position: absolute;
     bottom: 0;
     top: 0;
@@ -228,9 +228,29 @@ body {
     z-index: 1;
   }
   
+  #spline-viewer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #spline-viewer2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
   #hero .hero-container {
-    position: relative;
     z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
     min-width: 300px;
   }
   
@@ -239,18 +259,18 @@ body {
     font-size: 64px;
     font-weight: 700;
     line-height: 56px;
-    color: #1f2323;
+    color: #919898;
   }
   
   #hero p {
     color: #1f2323;
     margin-bottom: 50px;
-    font-size: 26px;
+    font-size: 23px;
     font-family: "Montserrat", sans-serif;
   }
   
   #hero p span {
-    color: #1f2323;
+    color: #676e6e;
     padding-bottom: 4px;
     letter-spacing: 1px;
     border-bottom: 3px solid #c0a6d2;
@@ -280,11 +300,11 @@ body {
   section {
     padding: 60px 0;
     overflow: hidden;
-    background: #1f2323;
+    background: #121212;
   }
   
   .section-bg {
-    background: #1f2323;
+    background: #121212;
   }
   
   .section-title {
@@ -423,7 +443,7 @@ body {
   
   .resume .resume-item h5 {
     font-size: 16px;
-    background: #0D0D0B;
+    background: #121212;
     padding: 5px 15px;
     display: inline-block;
     font-weight: 600;
@@ -450,7 +470,7 @@ body {
     border-radius: 50px;
     left: -9px;
     top: 0;
-    background: #1f2323;
+    background: #121212;
     border: 2px solid #1f5297;
   }
   
@@ -466,7 +486,7 @@ body {
     margin: 0 auto 35px auto;
     list-style: none;
     text-align: center;
-    background: #1f2323;
+    background: #121212;
     border-radius: 50px;
     padding: 2px 15px;
   }
@@ -528,7 +548,7 @@ body {
     color: #fff;
     font-size: 28px;
     text-align: center;
-    background: #1f2323;
+    background: #121212;
     transition: 0.3s;
     width: 30%;
   }
@@ -628,14 +648,14 @@ body {
   
   .contact .info {
     padding: 30px;
-    background: #1f2323;
+    background: #121212;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   }
   
   .contact .info i {
     font-size: 20px;
-    color: #1f2323;
+    color: #121212;
     float: left;
     width: 44px;
     height: 44px;
@@ -701,7 +721,7 @@ body {
   --------------------------------------------------------------*/
   .breadcrumbs {
     padding: 20px 0;
-    background: #1f2323;
+    background: #121212;
   }
   
   .breadcrumbs h2 {
